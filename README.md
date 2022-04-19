@@ -3,7 +3,7 @@
 - edit ./MRE.scala
 - try out autocompletion
 - get shown signature but no docs in autocompletion for line 8
-- like this: !(img_demo.png)
+- like this: !(./img_demo.png)
 - logs are in ./logs/:
   - [./logs/MetalsToggleLogs.txt](./logs/MetalsToggleLogs.txt)
   - [./logs/lsp.log](./logs/lsp.log)
