@@ -4,7 +4,10 @@
 - try out autocompletion
 - get shown signature but no docs in autocompletion for line 8
 - like this: !(img_demo.png)[I miss some docs there...]
-- log from `:MetalsToggleLogs` in ./nvim-metals-logs.txt
+- logs are in ./logs/:
+  - [./logs/MetalsToggleLogs.txt](./logs/MetalsToggleLogs.txt)
+  - [./logs/lsp.log](./logs/lsp.log)
+  - [./logs/nvim-metals.log](./logs/nvim-metals.log)
 
 The class file for `ZIO.succeed`, fetched through sbt with `withSources()` qualifier, has a source attached that I can navigate to with `gd`, that reads:
 
