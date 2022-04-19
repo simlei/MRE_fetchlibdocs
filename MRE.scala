@@ -5,5 +5,5 @@ object MRE {
   fo // <--- works looking at the "docs" in autocompletion
 
   import zio.*
-  ZIO.collect // <--- trigger autocompletion here, see image & situation from README
+  val x = ZIO.succeed() // <--- trigger autocompletion somewhere before the braces, see image & situation from README
 }

@@ -1,0 +1,148 @@
+2022.04.19 19:13:22 INFO  time: Connected to build server in 0.34s
+2022.04.19 19:13:22 INFO  Connected to Build server: Bloop v1.4.13-55-1fc97fae
+2022.04.19 19:13:24 INFO  time: indexed workspace in 2.47s
+2022.04.19 19:13:24 WARN  no build target for: /home/snuc/sandbox/mre_fetchlibd
+ocs/mre_fetchlibdocs/MRE.scala
+2022.04.19 19:13:24 WARN  no build target for: /home/snuc/sandbox/mre_fetchlibd
+ocs/mre_fetchlibdocs/MRE.scala
+2022.04.19 19:13:27 INFO  time: code lens generation in 2.58s
+2022.04.19 19:13:58 WARN  no build target for: /home/snuc/sandbox/mre_fetchlibd
+ocs/mre_fetchlibdocs/MRE.scala
+2022.04.19 19:13:58 INFO  skipping build import with status 'Started'
+2022.04.19 19:14:10 WARN  no build target for: /home/snuc/sandbox/mre_fetchlibd
+ocs/mre_fetchlibdocs/MRE.scala
+2022.04.19 19:14:10 INFO  skipping build import with status 'Started'
+2022.04.19 19:14:44 INFO  running '/home/snuc/.sdkman/candidates/java/current/b
+in/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfi
+le.encoding=UTF-8 -jar /tmp/metals5049008742987308437/sbt-launch.jar -Dbloop.ex
+port-jar-classifiers=sources bloopInstall'
+2022.04.19 19:14:45 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 11.0.1
+1)
+2022.04.19 19:14:46 INFO  [info] loading global plugins from /home/snuc/.sbt/1.
+0/plugins
+2022.04.19 19:14:46 INFO  [info] loading settings for project mre_fetchlibdocs-
+build-build from metals.sbt ...
+2022.04.19 19:14:47 INFO  [info] loading project definition from /home/snuc/san
+dbox/mre_fetchlibdocs/mre_fetchlibdocs/project/project
+2022.04.19 19:14:47 INFO  [info] loading settings for project mre_fetchlibdocs-
+build from metals.sbt ...
+2022.04.19 19:14:47 INFO  [info] loading project definition from /home/snuc/san
+dbox/mre_fetchlibdocs/mre_fetchlibdocs/project
+2022.04.19 19:14:49 INFO  [success] Generated .bloop/mre_fetchlibdocs-build.jso
+n
+2022.04.19 19:14:49 INFO  [success] Total time: 1 s, completed Apr 19, 2022, 7:
+14:49 PM
+2022.04.19 19:14:51 INFO  [info] loading settings for project root from build.s
+bt ...
+2022.04.19 19:14:51 INFO  [info] set current project to mre_fetchlibdocs (in bu
+ild file:/home/snuc/sandbox/mre_fetchlibdocs/mre_fetchlibdocs/)
+2022.04.19 19:14:51 INFO  [success] Generated .bloop/root.json
+2022.04.19 19:14:51 INFO  [success] Generated .bloop/root-test.json
+2022.04.19 19:14:51 INFO  [success] Total time: 0 s, completed Apr 19, 2022, 7:
+14:51 PM
+2022.04.19 19:14:52 INFO  time: ran 'sbt bloopInstall' in 7.58s
+2022.04.19 19:14:52 INFO  Disconnecting from Bloop session...
+2022.04.19 19:14:52 INFO  Shut down connection with build server.
+2022.04.19 19:14:52 INFO  Shut down connection with build server.
+2022.04.19 19:14:52 INFO  Attempting to connect to the build server...
+2022.04.19 19:14:52 INFO  tracing is disabled for protocol BSP, to enable traci
+ng of incoming and outgoing JSON messages create an empty file at /home/snuc/sa
+ndbox/mre_fetchlibdocs/mre_fetchlibdocs/.metals/bsp.trace.json or /home/snuc/.c
+ache/metals/bsp.trace.json
+2022.04.19 19:14:52 INFO  Attempting to connect to the build server...
+2022.04.19 19:14:52 INFO  tracing is disabled for protocol BSP, to enable traci
+ng of incoming and outgoing JSON messages create an empty file at /home/snuc/sa
+ndbox/mre_fetchlibdocs/mre_fetchlibdocs/project/.metals/bsp.trace.json or /home
+/snuc/.cache/metals/bsp.trace.json
+2022.04.19 19:14:52 INFO  time: Connected to build server in 0.13s
+2022.04.19 19:14:52 INFO  Connected to Build server: Bloop v1.4.13-55-1fc97fae
+2022.04.19 19:14:53 INFO  time: indexed workspace in 1.02s
+2022.04.19 19:14:53 INFO  compiling root (1 scala source)
+2022.04.19 19:14:53 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:14:53 WARN  Flag -classpath set repeatedly
+2022.04.19 19:14:54 INFO  time: compiled root in 1.24s
+2022.04.19 19:15:18 INFO  skipping build import with status 'Installed'
+2022.04.19 19:15:18 INFO  compiling root (1 scala source)
+2022.04.19 19:15:18 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:15:18 WARN  Flag -classpath set repeatedly
+2022.04.19 19:15:18 INFO  time: compiled root in 0.95s
+2022.04.19 19:15:31 INFO  skipping build import with status 'Installed'
+2022.04.19 19:15:31 INFO  compiling root (1 scala source)
+2022.04.19 19:15:31 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:15:31 WARN  Flag -classpath set repeatedly
+2022.04.19 19:15:32 ERROR code navigation does not work for the file '/home/snuc/sandbox/mre_fetchlibdocs/mre_fetchlibdocs/MRE.scala' because the build target root-test is being compiled. Wait until compilation is finished and try again.
+2022.04.19 19:15:31 INFO  time: compiled root in 0.76s
+2022.04.19 19:15:34 INFO  skipping build import with status 'Installed'
+2022.04.19 19:15:34 INFO  compiling root (1 scala source)
+2022.04.19 19:15:34 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:15:34 WARN  Flag -classpath set repeatedly
+2022.04.19 19:15:34 INFO  time: compiled root in 0.18s
+2022.04.19 19:15:35 ERROR code navigation does not work for the file '/home/snuc/sandbox/mre_fetchlibdocs/mre_fetchlibdocs/MRE.scala' because the SemanticDB file '/home/snuc/sandbox/mre_fetchlibdocs/mre_fetchlibdocs/.bloop/root/bloop-bsp-clients-class
+es/test-classes-Metals-d_RhffI1SwaCXOn4ed00lQ==/META-INF/semanticdb/MRE.scala.semanticdb' doesn't exist. There can be many reasons for this error.
+2022.04.19 19:18:22 INFO  skipping build import with status 'Installed'
+2022.04.19 19:18:22 INFO  compiling root (1 scala source)
+2022.04.19 19:18:22 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:18:22 WARN  Flag -classpath set repeatedly
+2022.04.19 19:18:22 INFO  skipping build import with status 'Installed'
+2022.04.19 19:18:22 INFO  time: compiled root in 0.57s
+2022.04.19 19:18:22 INFO  compiling root (1 scala source)
+2022.04.19 19:18:22 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:18:22 WARN  Flag -classpath set repeatedly
+2022.04.19 19:18:22 INFO  time: compiled root in 0.13s
+2022.04.19 19:18:23 INFO  skipping build import with status 'Installed'
+2022.04.19 19:18:22 INFO  compiling root (1 scala source)
+2022.04.19 19:18:22 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:18:22 WARN  Flag -classpath set repeatedly
+2022.04.19 19:18:24 INFO  time: compiled root in 0.46s
+2022.04.19 19:18:24 INFO  skipping build import with status 'Installed'
+2022.04.19 19:18:24 INFO  compiling root (1 scala source)
+2022.04.19 19:18:24 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:18:24 WARN  Flag -classpath set repeatedly
+2022.04.19 19:18:24 INFO  time: compiled root in 0.17s
+2022.04.19 19:18:25 INFO  skipping build import with status 'Installed'
+2022.04.19 19:18:25 INFO  compiling root (1 scala source)
+2022.04.19 19:18:25 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:18:25 WARN  Flag -classpath set repeatedly
+2022.04.19 19:18:25 INFO  time: compiled root in 98ms
+2022.04.19 19:18:28 INFO  skipping build import with status 'Installed'
+2022.04.19 19:18:28 INFO  compiling root (1 scala source)
+2022.04.19 19:18:28 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:18:28 WARN  Flag -classpath set repeatedly
+2022.04.19 19:18:28 INFO  time: compiled root in 0.11s
+2022.04.19 19:18:33 INFO  skipping build import with status 'Installed'
+2022.04.19 19:18:33 INFO  compiling root (1 scala source)
+2022.04.19 19:18:33 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:18:33 WARN  Flag -classpath set repeatedly
+2022.04.19 19:18:33 INFO  time: compiled root in 95ms
+2022.04.19 19:18:34 INFO  skipping build import with status 'Installed'
+2022.04.19 19:18:33 INFO  compiling root (1 scala source)
+2022.04.19 19:18:33 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:18:33 WARN  Flag -classpath set repeatedly
+2022.04.19 19:18:33 INFO  time: compiled root in 91ms
+2022.04.19 19:18:35 INFO  skipping build import with status 'Installed'
+2022.04.19 19:18:22 WARN  Flag -classpath set repeatedly
+2022.04.19 19:18:24 INFO  time: compiled root in 0.46s
+2022.04.19 19:18:24 INFO  skipping build import with status 'Installed'
+2022.04.19 19:18:24 INFO  compiling root (1 scala source)
+2022.04.19 19:19:00 INFO  skipping build import with status 'Installed'
+2022.04.19 19:19:00 INFO  compiling root (1 scala source)
+2022.04.19 19:19:00 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:19:00 WARN  Flag -classpath set repeatedly
+2022.04.19 19:19:00 INFO  time: compiled root in 93ms
+2022.04.19 19:19:23 INFO  skipping build import with status 'Installed'
+2022.04.19 19:19:23 INFO  compiling root (1 scala source)
+2022.04.19 19:19:23 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:19:23 WARN  Flag -classpath set repeatedly
+2022.04.19 19:19:23 INFO  time: compiled root in 0.11s
+2022.04.19 19:20:17 INFO  skipping build import with status 'Installed'
+2022.04.19 19:20:17 INFO  compiling root (1 scala source)
+2022.04.19 19:20:17 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:20:17 WARN  Flag -classpath set repeatedly
+2022.04.19 19:20:17 INFO  time: compiled root in 0.12s
+2022.04.19 19:20:17 INFO  skipping build import with status 'Installed'
+2022.04.19 19:20:17 INFO  compiling root (1 scala source)
+2022.04.19 19:20:17 WARN  Flag -bootclasspath set repeatedly
+2022.04.19 19:20:17 WARN  Flag -classpath set repeatedly
+2022.04.19 19:20:17 INFO  time: compiled root in 82ms
+
+
