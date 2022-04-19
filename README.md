@@ -1,8 +1,11 @@
 ## MRE
 
+This is aimed at scala metals in conjunction with Scala 3.1.1, and the [scalameta/nvim-metals plugin for NVIM](https://github.com/scalameta/nvim-metals). I was missing function and object docstrings while using autocompletion. the docstrings seem to be there in regular ballon tips, however I have this seen to fail also but that's for another MRE. Principle focus is the docstrings (not: the method signature, that's there.) while browsing autocomplete. 
+
+It assumes the nvim-metals plugin is configured globally for nvim. clone this repo and fire up NVIM and...
+
 - edit ./MRE.scala
-- try out autocompletion
-- get shown signature but no docs in autocompletion for line 8
+- in line 8, try autocompletion before the braces for `ZIO#succeed` which has a single-line docstring. This line is not shown in autocompletion mode.
 - like this: ![I miss some docs here...](img_demo.png)
 - logs are in ./logs/:
   - [./logs/MetalsToggleLogs.txt](./logs/MetalsToggleLogs.txt)
